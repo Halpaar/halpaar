@@ -1,9 +1,11 @@
 {
   "name": "display-3",
   "version": "0.0.0",
+  "homepage": "https://Halpaar.github.io/halpaar",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -14,6 +16,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
+    "gh-pages": "^6.2.0",
     "sass": "1.77.6",
     "unplugin-fonts": "^1.1.1",
     "unplugin-vue-components": "^0.27.2",
